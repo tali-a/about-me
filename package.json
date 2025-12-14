@@ -1,6 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "1.0.0",
+  "homepage": "https://tali-a.github.io/about-me/",
   "type": "module",
   "scripts": {
     "dev": "vite",
