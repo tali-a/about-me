@@ -14,7 +14,7 @@ const [darkMode, setDarkMode] = useState(false);
 
 return (
 <div className={darkMode ? "dark-mode" : ""}>
-<Router>
+<Router basename="/about-me">
 <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
 <Routes>
 <Route path="/" element={<About />} />
