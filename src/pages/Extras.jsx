@@ -46,11 +46,12 @@ export default function Extras() {
         ))}
       </div>
 
-      <div className="project-grid">
-        {filteredExtras.map((e, i) => (
-          <ProjectCard key={i} {...e} />
-        ))}
-      </div>
+     <div className="project-grid">
+  {filteredExtras.map((e, i) => (
+    <ProjectCard key={i} {...e} section="extras" />
+  ))}
+</div>
     </main>
   );
 }
+
