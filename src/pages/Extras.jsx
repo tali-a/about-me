@@ -32,7 +32,6 @@ export default function Extras() {
 
   return (
     <main className="page-container">
-      <h1 className="page-title">Extras</h1>
 
       <div className="pill-row">
         {["All", "Volunteering", "University"].map(cat => (

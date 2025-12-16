@@ -30,7 +30,6 @@ const projects = [
 
   return (
     <main className="page-container">
-      <h1 className="page-title">Projects</h1>
 
       <div className="pill-row">
         {["All", "Work Experience", "University","Personal"].map(cat => (

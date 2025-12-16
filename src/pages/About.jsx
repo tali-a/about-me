@@ -3,7 +3,6 @@ import React from 'react';
 export default function About() {
 return (
 <main className="page-container">
-<h1 className="page-title">About</h1>
 <p>
   I’m Talia, a Business Analytics undergraduate at the National University of Singapore, graduating in August 2026, with a strong interest in translating data into clear, actionable insights. 
   I have hands-on experience building analytical dashboards and introducing automation into work processes across sectors such as manufacturing, financial services, and government services.
@@ -27,6 +26,11 @@ return (
         that directly reflects healthcare outcomes —reinforcing the importance of understanding data context and designing 
         insights that support informed, human-centred decision-making. 
       </p>
+
+      <p>
+  I am seeking analytics, strategy, or product-related roles where data can be used to drive informed decision-making 
+  and measurable impact.
+</p>
 
 </main>
 );
