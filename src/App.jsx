@@ -11,7 +11,7 @@ export default function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className={darkMode ? "dark-mode" : ""}>
+    <div >
       <Router basename="/about-me">
         <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
         <Routes>
