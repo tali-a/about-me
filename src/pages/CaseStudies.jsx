@@ -1,9 +1,45 @@
-import React from 'react';
+import React, { useState } from "react";
+import ProjectCard from "../components/ProjectCard";
+import shopeeImage from "../images/shopee.png"; 
 
 export default function CaseStudies() {
+  const [selectedCategory, setSelectedCategory] = useState("All");
+
+  const caseStudies = [
+    {
+      id: "shopee-spp",
+      image: shopeeImage,
+      title: "Shopee Pickup Points: Increasing Self-Collection Usage",
+      description: "Strategic recommendations to increase SPP usage through pricing perception, operational capacity, and service experience improvements.",
+      category: "E-commerce"
+    }
+    // Add more case studies here
+  ];
+
+  const filteredCaseStudies =
+    selectedCategory === "All"
+      ? caseStudies
+      : caseStudies.filter(cs => cs.category === selectedCategory);
+
   return (
     <main className="page-container">
-      <p> To include research about topics I'm interested in! </p>
+      <div className="pill-row">
+        {["All", "E-commerce", "Technology", "Healthcare"].map(cat => (
+          <button
+            key={cat}
+            className={`pill ${selectedCategory === cat ? "active" : ""}`}
+            onClick={() => setSelectedCategory(cat)}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
+
+      <div className="project-grid">
+        {filteredCaseStudies.map((cs, i) => (
+          <ProjectCard key={i} {...cs} section="case-studies" />
+        ))}
+      </div>
     </main>
   );
 }
