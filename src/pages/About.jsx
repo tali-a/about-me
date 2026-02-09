@@ -200,7 +200,7 @@ export default function About() {
       <section className="section" style={{ background: '#fff', paddingTop: 24 }}>
         <div className="container" style={{ textAlign: 'center' }}>
           <div style={{ display: 'flex', justifyContent: 'center', gap: 40, fontSize: 18 }}>
-            <a href="/pdfs/resume.pdf" style={{ color: '#FF5722', borderBottom: '2px solid #FF5722', textDecoration: 'none' }}>Resume</a>
+            <a href={`${import.meta.env.BASE_URL}pdfs/resume.pdf`} style={{ color: '#FF5722', borderBottom: '2px solid #FF5722', textDecoration: 'none' }}>Resume</a>
             <a href="https://github.com/tali-a" target="_blank" rel="noreferrer" style={{ color: '#00BCD4', borderBottom: '2px solid #00BCD4', textDecoration: 'none' }}>GitHub</a>
           </div>
           <div style={{ marginTop: 24, opacity: 0.7 }}>find out more ↓</div>
