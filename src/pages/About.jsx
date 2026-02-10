@@ -220,7 +220,7 @@ export default function About() {
       paragraphs: [
         'Why product? A big part of product management is identifying the right problems to solve and understanding what value new features can provide to users.',
         'I developed my interest in product by joining Developer Group @ NUS as a Product Associate and joining the current iteration of Product Launchpad at PayPal.',
-        'I like the visual aspect involved in product management—drafting and iterating. Product management also needs good analytics...'
+        'I like drafting, iterating and focusing on the visual aspects of a product. I like that product management also emphasises understanding of analytics.'
       ],
       link: '/case-studies/maribank', 
       external: false
@@ -230,9 +230,9 @@ export default function About() {
       cta: 'DASHBOARD →',
       img: iposImg,
       paragraphs: [
-        'Why analytics? Knowledge of data and how to work with it is essential for any organisation—whether it’s solving a business problem or conducting policy research.',
-        'In my time doing price elasticity research or creating reporting dashboards, I realised that data models, good practices, and scalability are fundamental for any effective analysis.',
-        'I have an interest in data storytelling—conveying information clearly and effectively. I explored fun visualisations of the Global Innovation Index during my time at the Intellectual Property Office of Singapore. But data storytelling approaches are universally important, especially in...'
+        'Why analytics? Knowledge of data and how to work with it is essential for any organisation — whether it’s solving a business problem or conducting policy research.',
+        'In my time conducting price elasticity research or creating reporting dashboards, I’ve learned that well-structured data models and scalable processes are key to impactful analysis.',
+        'Passionate about data storytelling, I’ve turned insights from the Global Innovation Index into engaging visualisations. This is universally applicable to strategy.'
       ],
       link: 'https://public.tableau.com/app/profile/ipos/viz/GII2024LandingPage/LandingPage',
       external: true
@@ -242,8 +242,8 @@ export default function About() {
       cta: 'CASE STUDY →',
       img: shopeeImg,
       paragraphs: [
-        'Why strategy? Strategy is all about using data and context to make trade-offs that move the organisation toward its goals.',
-        'It’s a mix of intuition and data-driven approaches—that intuition is built only with experience and domain knowledge—but it’s an important part of the equation for seeing how everything connects. I want to learn more about it!'
+        'Why strategy? Strategy is about using data and context to make trade-offs that drive results.',
+        'My experience combining analysis with domain knowledge has shown me how insights connect, and I’m excited to explore it further.'
       ],
       link: '/case-studies/shopee-spp',
       external: false
