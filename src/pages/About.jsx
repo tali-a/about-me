@@ -222,7 +222,7 @@ export default function About() {
         'I developed my interest in product by joining Developer Group @ NUS as a Product Associate and joining the current iteration of Product Launchpad at PayPal.',
         'I like the visual aspect involved in product management—drafting and iterating. Product management also needs good analytics...'
       ],
-      link: '#', // placeholder
+      link: '/case-studies/maribank', 
       external: false
     },
     {

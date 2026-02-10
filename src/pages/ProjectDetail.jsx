@@ -5,6 +5,7 @@ import CausalContent from "./projectContent/CausalContent.jsx";
 import AdvisoryContent from "./projectContent/AdvisoryContent.jsx";
 import TembusuContent from "./projectContent/TembusuContent.jsx";
 import ShopeeSPPContent from "./projectContent/ShopeeSPPContent.jsx";
+import MaribankContent from "./projectContent/MaribankContent.jsx";
 
 export default function ProjectDetail() {
   const { projectId } = useParams();
@@ -17,7 +18,8 @@ export default function ProjectDetail() {
     "causal-analysis": <CausalContent />,
     "advisory": <AdvisoryContent /> ,
     "tembusu": <TembusuContent/>,
-    "shopee-spp": <ShopeeSPPContent />
+    "shopee-spp": <ShopeeSPPContent />,
+    "maribank":<MaribankContent />
   };
 
   return (

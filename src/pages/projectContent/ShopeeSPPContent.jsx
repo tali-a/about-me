@@ -31,7 +31,7 @@ const slides = [
     description: `Shopee's self-collection (SPP) model faces three interconnected barriers:
     
     1. Pricing perception misalignment: Consumers currently think self-collection is too expensive and fail to recognise benefits.
-    
+
     2. Operational capacity constraints: Users disproportionately prefer shop and locker SPP modes.
     
     3. Service experience gaps at residential points: Residential collection points are viewed as unreliable and thus undesirable.`

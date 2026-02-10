@@ -12,6 +12,13 @@ export default function CaseStudies() {
       title: "Shopee Pickup Points: Increasing Self-Collection Usage",
       description: "Strategic recommendations to increase SPP usage through pricing perception, operational capacity, and service experience improvements.",
       category: "E-commerce"
+    },
+    {
+      id: "maribank",
+      image: `${import.meta.env.BASE_URL}MARI/1.png`,
+      title: "MariBank: Strengthening Investment and Savings Engagement",
+      description: "Recommendations to increase adoption and stickiness of MariInvest and frictionless savings through behavioural nudges and recurring deposit mechanics.",
+      category: "Finance"
     }
     // Add more case studies here
   ];
