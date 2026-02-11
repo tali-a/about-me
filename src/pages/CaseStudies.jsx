@@ -18,7 +18,7 @@ export default function CaseStudies() {
       image: `${import.meta.env.BASE_URL}MARI/1.png`,
       title: "MariBank: Strengthening Investment and Savings Engagement",
       description: "Recommendations to increase adoption and stickiness of MariInvest and frictionless savings through behavioural nudges and recurring deposit mechanics.",
-      category: "Finance"
+      category: "Banking"
     }
     // Add more case studies here
   ];
@@ -31,7 +31,7 @@ export default function CaseStudies() {
   return (
     <main className="page-container">
       <div className="pill-row">
-        {["All", "E-commerce", "Technology", "Healthcare"].map(cat => (
+        {["All", "E-commerce", "Banking"].map(cat => (
           <button
             key={cat}
             className={`pill ${selectedCategory === cat ? "active" : ""}`}
